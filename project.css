@@ -1,0 +1,784 @@
+body{background-image:linear-gradient(to right top, #CCCCFF,#BDECB6,#FAE7B5);}
+
+.strela{position: absolute; top: 2px; left: 5px;
+	width: 100px;
+	height: 100px;
+	position: absolute; z-index:-1;
+	transform: scale(-1, 1)}
+
+.strela2{position: absolute; top: 2px; right: 5px;
+	width: 100px;
+	height: 100px;
+	position: absolute; z-index:-1;}
+
+.strelka{position: absolute; top: 2px; right: 5px;
+	width: 100px;
+	height: 100px;
+	position: absolute; z-index:3;}
+
+	.zero{position: absolute; top: 2px; left: 20px;
+		width: 100px;
+		height: 100px;
+		position: absolute; z-index:3;
+		display: block;
+		font-family: 'Neucha', cursive;
+		font-size: 20px;
+		text-align: center;
+		color: black;
+		margin-left: 10px}
+
+	.one{position: absolute; top: 20px; right: 520px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.two{position: absolute; top: 20px; right: 285px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.three{position: absolute; top: 20px; right: 50px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.four{position: absolute; top: 330px; right: 50px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.five{position: absolute; top: 330px; right: 285px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.six{position: absolute; top: 330px; right: 520px;
+		width: 225px;
+		height: 300px;
+		display: flex;
+		position: absolute; z-index:3;}
+
+	.a{	position: absolute; top: 20px; right: 520px;}
+		.b{	position: absolute; top: 20px; right: 285px;}
+		.c{	position: absolute; top: 20px; right: 50px;}
+		.d{	position: absolute; top: 330px; right: 50px;}
+		.e{	position: absolute; top: 330px; right: 285px;}
+		.f{	position: absolute; top: 330px; right: 520px;}
+
+p{text-align:center;
+	font-size:50px;
+	margin-top:33px;
+	font-family: 'Amatic SC', cursive;
+	position: absolute; z-index:2;
+	color: white;}
+
+.b p{
+	font-size:50px;
+	margin-top:200px;
+	margin-left: 120px;
+	font-family: 'Amatic SC', cursive;
+	position: absolute; z-index:2;
+	color: black;}
+
+.f p{font-size:50px;
+	margin-top:200px;
+	margin-left: 100px;
+	font-family: 'Amatic SC', cursive;
+	position: absolute; z-index:2;
+	color: black;}
+
+.c p{font-size:50px;
+	margin-top:200px;
+	margin-left:12px;
+	font-family: 'Amatic SC', cursive;
+	position: absolute; z-index:2;
+	color: white;}
+
+.d p{font-size:50px;
+	margin-top:200px;
+	margin-left:60px;
+	font-family: 'Amatic SC', cursive;
+	position: absolute; z-index:2;
+	color: white;}
+
+.all img{
+	border-radius: 5%;
+	width: 225px;
+	height: 300px;
+	display: flex;}
+
+.me{ height:600px;
+	width:auto;
+	margin-top: 50px;
+	margin-left: 100px;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%}
+
+.ramka{object-fit: cover;
+	height:800px;
+	width:800px;
+	margin-top: -100px;
+	margin-left:-100px;
+	position: absolute; z-index:-1;
+	transform: rotate( 55deg);
+	border-radius: 50% ;}
+
+.text{position: absolute; z-index:1;
+	border-radius: 6%;
+	width: 225px;
+	height: 300px;
+	margin-top: 5px;
+	margin-left: 5px;}
+
+.faktura{width: 640px;
+   	height: 670px;
+   	position: absolute; top: 42px; left: 84px;
+  	opacity: .3;}
+
+/***********************************************************************красный****************************************************************************/
+
+.zero{position: absolute; z-index:3}
+.nout{
+   	width: 1550px;
+   	height: 757px;
+	margin-top: -10px;
+	margin-left:-40px;	
+	position: absolute; z-index:-2;}
+
+.foto{
+	border-radius: 3px;
+	width: 190px;
+	height: auto;
+	position: absolute; z-index:1;
+	position: absolute; top: 80px; left: 167px;	}
+
+.fo{
+	width: 270px;
+	height:350px;
+	padding: 15px;
+	margin: 15px;
+	position: absolute; z-index:2;
+	position: absolute; top: 20px; left: 105px;	}
+
+.r{
+	font-family: 'Neucha', cursive;
+	font-size: 40px;
+	margin: 6px 50px 0px;
+	position: absolute; z-index:3;	
+	position: absolute; top: 308px; left: 165px;}
+
+.nezabud{
+	width: 300px;
+	height: auto;
+	transform: rotate( 250deg);
+	position: absolute; top: 160px; left: 355px;
+	position: absolute; z-index:2;}
+
+.cvetok{
+	width: 250px;
+	height: auto;
+	transform: rotate( 310deg);
+	position: absolute; top: 123px; left: 380px;
+	position: absolute; z-index:2}
+
+.scotch{
+	width: 150px;
+	height: auto;
+	transform: rotate( 325deg);
+	position: absolute; top: 220px; left: 495px;
+	position: absolute; z-index:3}
+
+.anketa{
+	position: absolute; top: 405px; left: 125px;
+	object-fit: cover;
+   	width: 550px;
+    height: 300px;}
+
+ .scotch2{
+    position: absolute; top: 365px; left: 125px;
+    width: 570px;
+	height: auto;}
+
+h3{font-family: 'Neucha', cursive;
+	font-size: 40px;
+	position: absolute; z-index:3;}
+
+		.name{position: absolute; top: 379px; left: 265px;
+			font-size: 30px;}
+		.sname{position: absolute; top: 416px; left: 265px;
+			font-size: 30px;}
+		.age{position: absolute; top: 451px; left: 265px;
+			font-size: 30px;}
+		.hb{position: absolute; top: 486px; left: 265px;
+			font-size: 30px;}
+		.city{position: absolute; top: 521px; left: 265px;
+			font-size: 30px;}
+		.school{position: absolute; top: 557px; left: 265px;
+			font-size: 30px;}
+		.zz{position: absolute; top: 592px; left: 265px;
+			font-size: 30px;}
+
+.lampa{width: 200px;
+    height: 200px;
+    position: absolute; top: 45px; right: 200px;}
+
+h4{font-family: 'Neucha', cursive;
+	font-size: 40px;
+	position: absolute; z-index:3;
+	position: absolute; top: 210px; right: 280px;
+	font-size: 40px;}
+
+h5{font-family: 'Neucha', cursive;
+	font-size: 40px;
+	position: absolute; z-index:3;
+	position: absolute; top: 320px; right: 230px;
+	font-size: 28px;
+	transform: rotate( 10deg);}
+
+h6{font-family: 'Neucha', cursive;
+	font-size: 40px;
+	position: absolute; z-index:3;
+	position: absolute; top: 400px; right: 477px;
+	font-size: 28px;
+	transform: rotate( 350deg);}
+
+.cactus{width: auto;
+    height: 150px;
+    position: absolute; top: 550px; right: 170px;
+    position: absolute; z-index:1}
+
+.kisty{width: auto;
+    height: 350px;
+    position: absolute; top: 60px; right: 460px;
+    opacity: .7;}
+
+.stiker{object-fit: cover;
+	width: 240px;
+    height: 240px;
+    position: absolute; top: 320px; right: 170px;}
+
+.stiker2{object-fit: cover;
+	width: 240px;
+    height: 240px;
+    position: absolute; top: 437px; right: 450px;
+    transform: rotate( 340deg);}
+
+/***********************************************************************оранжевый******************************************************************/
+
+.room{object-fit: cover;
+	width: 300px;
+   	height: 220px;
+   	position: absolute; top: 105px; left: 325px;
+    position: absolute; z-index:1}
+
+.karton{object-fit: cover;
+	width: 370px;
+  	height: 270px;
+    position: absolute; top: 80px; left: 290px;}
+
+.tenm{width: 340px;
+   	height: 470px;
+    position: absolute; top: -30px; left: 278px;
+    transform: rotate( 90deg);}
+
+.skotch3{width: 140px;
+	height: 50px;
+	transform: rotate( 325deg);
+	position: absolute; top: 100px; left: 280px;
+	position: absolute; z-index:3}
+
+.skotch4{width: 140px;
+	height: 50px;
+	transform: rotate( 325deg);
+	position: absolute; top: 280px; left: 540px;
+	position: absolute; z-index:3}
+
+.karton2{object-fit: cover;
+	width: 370px;
+    height: 270px;
+    position: absolute; top: 400px; left: 120px;}
+
+.tenm2{width: 470px;
+    height: 340px;
+    position: absolute; top: 387px; left: 54px;
+	position: absolute; z-index:2}
+
+.dom{object-fit: cover;
+	width: 300px;
+   	height: 220px;
+   	position: absolute; top: 425px; left: 155px;
+    position: absolute; z-index:1}
+
+.skotch5{width: 140px;
+	height: 50px;
+	transform: rotate( 35deg);
+	position: absolute; top: 420px; left: 370px;
+	position: absolute; z-index:3}
+
+.skotch6{width: 140px;
+	height: 50px;
+	transform: rotate( 35deg);
+	position: absolute; top: 600px; left: 110px;
+	position: absolute; z-index:3}
+
+.dekor{width: auto;
+	height: 180px;
+	position: absolute; top: 100px; left: 90px;}
+
+.dekor2{width: 190px;
+	height: 110px;
+	position: absolute; top: 500px; left: 500px;
+	transform: rotate( 335deg);}
+
+.dekor3{width: 190px;
+	height: 190px;
+	position: absolute; top: 460px; left: 510px;}
+
+.roomp{font-family: 'Neucha', cursive;
+	font-size: 30px;
+	position: absolute; z-index:3;
+	position: absolute; top: 125px; left: 115px;
+	font-size: 30px;}
+
+.domp{font-family: 'Neucha', cursive;
+	font-size: 30px;
+	position: absolute; z-index:3;
+	position: absolute; top: 480px; left: 560px;
+	font-size: 30px;}
+
+.nebo{object-fit: cover;
+	width: 570px;
+   	height: 600px;
+   	position: absolute; top: 80px; right: 150px;}
+
+.drakon{width: auto;
+   	height: 300px;
+   	position: absolute; top: 90px; right: 150px;
+	transform: rotate( 15deg);}
+
+.ra{width: auto;
+   	height: 400px;
+   	position: absolute; top: 340px; right: 160px;
+	position: absolute; z-index:2;}
+
+.rap{font-family: 'Neucha', cursive;
+	font-size: 25px;
+	position: absolute; top: 370px; left: 200px;
+	transform: rotate( 15deg);}
+
+.mechta{width: 400px;
+   	height: 400px;
+	position: absolute; top: 0px; right: 230px;}
+
+.black{width: 250px;
+   	height: 250px;
+	position: absolute; top: 390px; right: -27px;
+	background-color: black;
+	opacity: .6;
+	transform: rotate( 15deg);}
+
+.str{position: absolute; top: 380px; right: 220px;
+	width: 250px;
+	height: auto;
+	transform: rotate( 210deg);}
+
+	/****************************************************Желтый****************************************************************************/
+
+.fon1{object-fit: cover;
+	width: 640px;
+   	height: 670px;
+   	position: absolute; top: 42px; left: 750px;
+  	opacity: .4;}
+
+.rom{width:auto;
+   	height: 600px;
+   	position: absolute; top: 112px; left: 84px; 
+	position: absolute; z-index:1;}
+
+.fo4{position: absolute; top: 62px; left: 390px;
+	width: 300px;
+	height: 400px;
+	transform: rotate( 7deg);
+	position: absolute; z-index:2;}
+
+.oven{object-fit: cover;
+	position: absolute; top: 92px; left: 425px;
+	width: 220px;
+	height:auto;
+	transform: rotate( 7deg);
+	position: absolute; z-index:1;}
+
+.dlat{position: absolute; top: 442px; left: 365px;
+	width: 310px;
+	height:auto;}
+
+.dekor4{position: absolute; top: 422px; left: 385px;
+	width: 270px;
+	height:auto;}
+
+.palma{position: absolute; top: 72px; right: 115px;
+	width: auto;
+	height:650px;}
+
+.dlat2{position: absolute; top: 422px; right: 305px;
+	width: 410px;
+	height:auto;}
+
+.dekor5{position: absolute; top: 382px; right: 355px;
+	width: 370px;
+	height:auto;}
+
+.patno{position: absolute; top: 42px; left: 85px;
+	width: 400px;
+	height:auto;}
+
+.cel{font-family: 'Neucha', cursive;
+	font-size: 28px;
+	position: absolute; top: 440px; left: 438px;
+	color: black;
+	font-weight: bold;}
+
+.lider{font-family: 'Neucha', cursive;
+	font-size: 30px;
+	position: absolute; top: 443px; right: 410px;
+	color: black;
+	font-weight: bold;}
+
+.dekor6{position: absolute; top: 70px; right: 445px;
+	width: 300px;
+	height:auto;
+	transform: rotate( 30deg);}
+
+.dekor7{
+	position: absolute; top: 80px; right: 400px;
+	width: 300px;
+	height:auto;}
+
+/******************************************************зеленый****************************************************************/
+.muzika{object-fit: cover;
+	position: absolute; top: 72px; left: 445px;
+	width: 200px;
+	height:auto;
+	transform: rotate( 7deg);
+	position: absolute; z-index:1;}
+
+.fo6{position: absolute; top: 42px; left: 410px;
+	width: 280px;
+	height: 380px;
+	transform: rotate( 7deg);
+	position: absolute; z-index:3;}
+
+.risunok{position: absolute; top: 362px; left: 110px;
+	width: auto;
+	height: 300px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:3;}
+
+.tenm4{position: absolute; top: 391px; left: 124px;
+	width: 350px;
+	height: 350px;
+	transform: rotate( 350deg);}
+
+.skotch7{width: 200px;
+	height: 210px;
+	transform: rotate( 35deg);
+	position: absolute; top: 252px; left: 265px;
+	position: absolute; z-index:3}
+
+.skotch8{width: 200px;
+	height: 210px;
+	transform: rotate( 35deg);
+	position: absolute; top: 552px; left: 65px;
+	position: absolute; z-index:3}
+
+.dlat3{position: absolute; top: 412px; left: 430px;
+	width: 250px;
+	height:210px;}
+
+.dekor8{position: absolute; top: 400px; left: 430px;
+	width: 270px;
+	height:auto;}
+
+.dlat4{position: absolute; top: 102px; left: 124px;
+	width: 290px;
+	height:210px;}
+
+.dekor9{position: absolute; top: 84px; left: 116px;
+	width: 285px;
+	height:auto;}
+
+.book{position: absolute; top: 452px; right: 430px;
+	width: 220px;
+	height: 220px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:3;}
+
+.c1{position: absolute; top: 170px; right: 238px;
+	width: 90px;
+	height: auto;
+	position: absolute; z-index:1}
+
+.c2{position: absolute; top: 300px; right: 258px;
+	width: 150px;
+	height: auto;}
+
+.c3{position: absolute; top: 230px; right: 128px;
+	width: 150px;
+	height: auto;}
+
+.c11{position: absolute; top: 40px; right: 333px;
+	width: 2px;
+	height: 300px;}
+
+.c22{position: absolute; top: 40px; right: 284px;
+	width: 2px;
+	height: 200px;}
+
+.c33{position: absolute; top: 40px; right: 204px;
+	width: 2px;
+	height: 200px;}
+
+.fo7{position: absolute; top: 52px; right: 390px;
+	width: 285px;
+	height: 350px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:3;}
+
+.tee{object-fit: cover;
+	position: absolute; top: 95px; right: 437px;
+	width: 215px;
+	height:auto;
+	transform: rotate( 350deg);
+	position: absolute; z-index:3;}
+
+.skotch9{width: 180px;
+	height: 220px;
+	transform: rotate( 325deg);
+	position: absolute; top: 342px; right: 525px;
+	position: absolute; z-index:4}
+
+.skotch10{width: 180px;
+	height: 220px;
+	transform: rotate( 325deg);
+	position: absolute; top: 542px; right: 385px;
+	position: absolute; z-index:4}
+
+.faktura2{width: 640px;
+   	height: 670px;
+   	position: absolute; top: 42px; right: 134px;
+  	opacity: .3;
+  	position: absolute; z-index:2}
+
+.dlat7{position: absolute; top: 425px; right: 125px;
+	width: 300px;
+	height:260px;
+	transform: rotate( 25deg);}
+
+.dekor10{position: absolute; top: 450px; right: 150px;
+	width: 250px;
+	height:auto;}
+
+.favo1{font-family: 'Neucha', cursive;
+	font-size: 27px;
+	position: absolute; top: 110px; left: 160px;
+	color: black;
+	text-align: center;}
+
+.favo2{font-family: 'Neucha', cursive;
+	font-size: 27px;
+	position: absolute; top: 420px; left: 480px;
+	color: black;
+	text-align: center;}
+
+.favo3{font-family: 'Neucha', cursive;
+	font-size: 27px;
+	position: absolute; top: 480px; right: 190px;
+	color: black;
+	text-align: center;}
+
+/****************************************************бербзовый*******************************************************************/
+
+.fotor{position: absolute; top: 52px; right: 450px;
+	width: 285px;
+	height: 350px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:2;}
+
+.wolk{position: absolute; top: 82px; right: 493px;
+	width: auto;
+	height: 250px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:1;}
+
+.fotor2{position: absolute; top: 352px; right: 150px;
+	width: 285px;
+	height: 350px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:2;}
+
+.book2{position: absolute; top: 392px; right: 192px;
+	width:auto;
+	height: 260px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:1;}
+
+.you{position: absolute; top: 452px; right: 500px;
+	width: auto;
+	height: 190px;
+	position: absolute; z-index:2;}
+
+.kraska2{position: absolute; top: 435px; right: 420px;
+	width: 330px;
+	height: auto;
+	position: absolute; z-index:1;
+	transform: rotate( 180deg);}
+
+.sticker2{position: absolute; top: 82px; right: 160px;
+	width: auto;
+	height: 250px;
+	position: absolute; z-index:1;}
+
+.fon3{width: 640px;
+   	height: 670px;
+   	position: absolute; top: 42px; left: 750px;
+  	opacity: .2;
+  	position: absolute; z-index:-1;}
+
+.tree{width:auto;
+   	height: 650px;
+   	position: absolute; top: 62px; left: 84px; 
+	position: absolute; z-index:1;}
+
+.clock{position: absolute; top: 112px; left: 420px;
+	width: auto;
+	height: 200px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:3;}
+
+.krug{position: absolute; top: 92px; left: 360px;
+	width: auto;
+	height: 300px;
+	position: absolute; z-index:2;}
+
+.kraska{position: absolute; top: 82px; left: 360px;
+	width: auto;
+	height: 300px;
+	position: absolute; z-index:1;
+		transform: rotate( 23deg);}
+
+.sticker{position: absolute; top: 422px; left: 390px;
+	width: auto;
+	height: 250px;
+	transform: rotate( 5deg);
+	position: absolute; z-index:1;}
+
+.time1{font-family: 'Neucha', cursive;
+	font-size: 27px;
+	position: absolute; top: 440px; left: 410px;
+	color: black;
+	text-align: center;
+	transform: rotate( 3deg);}
+
+.time2{font-family: 'Neucha', cursive;
+	font-size: 27px;
+	position: absolute; top: 90px; right: 195px;
+	color: black;
+	text-align: center;
+	transform: rotate( 358deg);}
+
+
+/***********************************************************синий**************************************************************/
+
+.fotor7{position: absolute; top: 12px; left: 20px;
+	width: 755px;
+	height: 600px;
+	position: absolute; z-index:2;}
+
+.cat{position: absolute; top: 82px; left: 120px;
+	width: auto;
+	height: 400px;
+	position: absolute; z-index:2;}
+
+.fotor5{position: absolute; top: 52px; right: 430px;
+	width: 305px;
+	height: 370px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:2;}
+
+.catd{position: absolute; top: 82px; right: 480px;
+	object-fit: cover;
+	width: 220px;
+	height: 280px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:1;}
+
+.kraska3{position: absolute; top: 62px; right: 150px;
+	width: 355px;
+	height: 320px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:2;}
+
+.kvadrat4{position: absolute; top: 82px; right: 180px;
+	width: 285px;
+	height: 270px;
+	position: absolute; z-index:2;}
+
+.fotor6{position: absolute; top: 332px; right: 120px;
+	width: 305px;
+	height: 370px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:2;}
+
+.finik{position: absolute; top: 358px; right: 163px;
+	width: 230px;
+	height: 270px;
+	transform: rotate( 10deg);
+	position: absolute; z-index:1;}
+
+.kraska4{position: absolute; top: 432px; right: 390px;
+	width: 325px;
+	height: 220px;
+	transform: rotate( 0deg);
+	position: absolute; z-index:1;}
+
+.kvadrat3{position: absolute; top: 422px; right: 440px;
+	width: auto;
+	height: 270px;
+	position: absolute; z-index:2;}
+
+.polosa{position: absolute; top: 578px; left: 120px;
+	width: auto;
+	height: 120px;
+	transform: rotate( 350deg);
+	position: absolute; z-index:2;}
+
+.cat1{font-family: 'Neucha', cursive;
+	font-size: 31px;
+	position: absolute; top: 460px; left: 138px;
+	color: black;
+	text-align: center;
+	font-weight: bold;}
+
+.cat2{font-family: 'Neucha', cursive;
+	font-size: 28px;
+	position: absolute; top: 100px; right: 198px;
+	color: black;
+	text-align: center;
+	font-weight: bold;}
+
+.cat3{font-family: 'Neucha', cursive;
+	font-size: 28px;
+	position: absolute; top: 450px; right: 488px;
+	color: black;
+	text-align: center;
+	font-weight: bold;}
+
+.fon5{object-fit: cover;
+	width: 640px;
+   	height: 670px;
+   	position: absolute; top: 42px; left: 750px;
+  	opacity: .4;}
